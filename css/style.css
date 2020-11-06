@@ -1,0 +1,192 @@
+.navbar {
+    background-color: #E2E2EE;
+    color: #C69E5D;
+    height: 18vh;
+    font-family: "Manrope";
+}
+
+
+.navbar-toggler{
+    color: #C69E5D;
+}
+
+.text-color{
+    color: #C69E5D;
+    font-family: "Manrope";
+}
+
+.text-muted {
+    color: #C69E5D;
+}
+
+.bg-color {
+    background-color: #E2E2EE;
+}
+
+.nav-item { 
+    color: #C69E5D;
+    font-family: "Manrope";
+
+}
+
+.nav-link:hover {
+    color: #CE8D22;
+
+}
+
+.navbar-toggler-icon{
+    color: #C69E5D;
+}
+
+.body {
+    background-color:  #263D23;
+    min-height: 110vh;
+    font-family:"Manrope";
+}
+img { 
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    margin-right: 20px;
+    grid-area: img;
+
+}
+
+.jumbotron {
+    background-color: #D3B7CC;
+    margin: auto;
+    
+}
+
+.textRight {
+    /* display: flex;
+    justify-content: end;
+    align-items: center; */
+    grid-area: textRight;
+    margin-left: 20px;
+}
+
+/* .container {
+    display: block;
+    margin: 0 auto;
+} */
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "img textRight";
+    height:auto;
+}
+.display-4 {
+    font-size: 5vw;
+}
+
+.lead {
+    font-size: 2vw;
+}
+
+.textBody {
+    margin:40px;
+    border: solid 2px #E2E2EE;
+    background-color: #263D23;
+    color: #D3B7CC;
+    padding: 20px;
+}
+
+.cardLeft {
+    margin: 25px;
+}
+
+.cardRight {
+    margin: 25px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.cardX {
+    background-color: #D3B7CC;
+    font-family:"Manrope";
+
+}
+
+.btn {
+    background-color: #C69E5D;
+    border: #C69E5D;
+}
+
+.btn:hover {
+    background-color: #CE8D22;
+    border: #C69E5D;
+}
+
+.boxWidth {
+    margin:auto;
+    margin-top: 20px;
+    width: fit-content;
+    padding: 15px;
+    border: solid 2px #E2E2EE;
+    background-color: #263D23;
+    color: #D3B7CC;
+}
+
+
+
+.body1 {
+    background-color:  #263D23;
+    min-height: 190vh;
+    font-family:"Manrope";
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "user define proto ";
+}
+
+.user {
+    grid-template-areas: user;
+
+}
+.define {
+    grid-template-areas: define;
+
+}
+.proto {
+    grid-template-areas: proto;
+
+
+}
+
+.card1 {
+    margin: 20px;
+    font-family: "Manrope";
+    background-color: #D3B7CC;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .boxWidth {
+    margin-left:30px;
+    margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .grid2 {
+        display: initial;
+    }
+}
