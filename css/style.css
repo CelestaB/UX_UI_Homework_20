@@ -137,7 +137,12 @@ img {
 
 .body1 {
     background-color:  #263D23;
-    min-height: 190vh;
+    min-height: 150vh;
+    font-family:"Manrope";
+}
+.body2 {
+    background-color:  #263D23;
+    min-height: 100%;
     font-family:"Manrope";
 }
 
@@ -170,7 +175,11 @@ img {
 }
 
 
-
+.carousel {
+    margin: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
 
 
 
