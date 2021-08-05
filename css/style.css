@@ -88,7 +88,7 @@ img {
 }
 
 .textBody {
-    margin:40px;
+    margin: 40px;
     border: solid 2px #E2E2EE;
     background-color: #263D23;
     color: #D3B7CC;
@@ -133,7 +133,10 @@ img {
     color: #D3B7CC;
 }
 
-
+.background {
+    background-color: #263D23;
+    padding: 20px;
+}
 
 .body1 {
     background-color:  #263D23;
@@ -174,14 +177,21 @@ img {
     background-color: #D3B7CC;
 }
 
-
 .carousel {
-    margin: 30px;
-    margin-bottom: 0px;
-    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
-
-
+.carousel-item {
+    height: 100%;
+  }
+.carousel-item > img {
+    position: center;
+    top: 0;
+    left: 40%;
+    min-width: 50%;
+    height: 100%;
+  }
 
 
 
@@ -197,5 +207,28 @@ img {
     /* For mobile phones: */
     .grid2 {
         display: initial;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner{
+        position: center;
+        padding: 10px;
+        min-width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .carousel-item {
+        position: center;
+        top: 0;
+        min-width: 50%;
+        height: 100%;
+      }
+}
+@media (max-width: 768px) {
+    .carousel{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     }
 }
